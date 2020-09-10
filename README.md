@@ -1,4 +1,4 @@
-#Request Responses
+Request Responses
 | Name      | Response Format                          | Parameters                                                |
 | --------- | :--------------------------------------- | :-------------------------------------------------------- |
 | `Success` | `{success: true, data}`                  | `res: Response, status: Number, data?: any`               |
