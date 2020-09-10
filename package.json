@@ -1,18 +1,18 @@
 {
-  "name": "fastify-utilities",
-  "version": "1.0.5",
-  "description": "",
+  "name": "@fangskillz/fastify-utilities",
+  "version": "1.0.7",
+  "description": "Request Responses | Name      | Response Format                          | Parameters                                                | | --------- | :--------------------------------------- | :-------------------------------------------------------- | | `Success` | `{success: true, data}`                  | `res: Response, status: Number, data?: any`               | | `Failed`    | `{error: true, code, data}`              | `res: Response, status: number, code: string, data?: any` | | `Missing`   | `{error: true, code: 'route_not_found'}` | `res: Response, data?: any`                               | | `Catch`   | `{error: true, code: 'catch', data}`     | `res: Response:, data?: any`                              |",
   "main": "src/response.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fangskillz/fastify-utilities"
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -w && nodemon src/*.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Juan Garcia <me@juan.engineer>",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "@types/node": "^14.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangskillz/fastify-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fangskillz/fastify-utilities/issues"
+  },
+  "homepage": "https://github.com/fangskillz/fastify-utilities#readme"
 }
