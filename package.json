@@ -3,6 +3,10 @@
   "version": "1.0.5",
   "description": "",
   "main": "src/response.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fangskillz/fastify-utilities"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc -w && nodemon src/*.js"
