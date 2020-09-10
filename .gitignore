@@ -1,0 +1,17 @@
+#Node
+node_modules
+
+#compiled code
+src
+
+#Mac Prevent File
+.DS_Store
+
+#Yarn
+package-lock.json
+yarn-error.log
+
+#Private keys aka Enviroment Files
+.env.*
+.env
+!.env.example

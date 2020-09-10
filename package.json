@@ -1,0 +1,22 @@
+{
+  "name": "fastify-utilities",
+  "version": "1.0.5",
+  "description": "",
+  "main": "src/response.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w && nodemon src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fastify": "^3.3.0",
+    "fastify-plugin": "^2.3.3",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4"
+  }
+}
