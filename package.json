@@ -1,11 +1,11 @@
 {
-  "name": "@fangskillz/fastify-utilities",
-  "version": "1.0.7",
+  "name": "fastify-utilities",
+  "version": "1.0.8",
   "description": "Request Responses | Name      | Response Format                          | Parameters                                                | | --------- | :--------------------------------------- | :-------------------------------------------------------- | | `Success` | `{success: true, data}`                  | `res: Response, status: Number, data?: any`               | | `Failed`    | `{error: true, code, data}`              | `res: Response, status: number, code: string, data?: any` | | `Missing`   | `{error: true, code: 'route_not_found'}` | `res: Response, data?: any`                               | | `Catch`   | `{error: true, code: 'catch', data}`     | `res: Response:, data?: any`                              |",
   "main": "src/response.js",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

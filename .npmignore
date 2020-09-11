@@ -5,3 +5,5 @@ modules
 .editorconfig
 
 tsconfig.json
+
+.npmrc
